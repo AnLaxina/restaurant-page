@@ -1,0 +1,1 @@
+export const coolGreeting = "Hello, this is such a cool greeting!";
