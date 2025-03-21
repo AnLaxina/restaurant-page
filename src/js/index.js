@@ -1,7 +1,7 @@
 import "../css/styles.css";
 import loadHomePage from "./home.js";
 
-loadHomePage();
+// loadHomePage();
 
 // Retrieve the 3 menu buttons
 const homeButton = document.querySelector("#home");
