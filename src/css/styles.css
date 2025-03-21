@@ -10,7 +10,8 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 12px;
-    background-color: #443627;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../img/restaurant-image.jpg');
     color: #F2F6D0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
@@ -30,6 +31,7 @@ img {
     flex-direction: column;
     align-items: center;
     background-color: #D98324;
+    border-radius: 15px;
     width: 500px;
     padding: 16px;
 }
