@@ -1,4 +1,35 @@
+/* Good colour scheme for this site:
+*  #443627 (primary)
+*  #D98324 (secondary)
+*  #EFDCAB (tertiary)
+*  #F2F6D0 (other things)
+*/
+
 body {
-    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    background-color: #443627;
+    color: #F2F6D0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+img {
+    width: 250px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D98324;
+    width: 500px;
+    padding: 16px;
 }
