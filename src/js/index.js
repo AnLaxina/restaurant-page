@@ -1,4 +1,3 @@
-import { coolGreeting } from "./greeting.js";
 import "../css/styles.css";
 import CoffeeImage from "../img/coffee-clipart.jpg";
 console.log(coolGreeting);
