@@ -24,18 +24,9 @@ header {
     align-items: center;
     width: 100%;
     height: 45px;
-    background-color: #EFDCAB;
+    background-color: #443627;
 }
 
-button {
-    height: 30px;
-    width: 75px;
-    border: solid 1px #D98324;
-    border-radius: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #D98324;
-    color: #F2F6D0;
-}
 
 button:hover {
     cursor: pointer;
@@ -61,6 +52,25 @@ img {
 
 .menu-item:not(:last-child) {
     border-bottom: 8px solid #F2F6D0;
+}
+
+.normal,
+.highlighted {
+    height: 30px;
+    width: 75px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #D98324;
+    color: #F2F6D0;
+}
+
+.normal {
+    border: solid 1px #D98324;
+}
+
+.highlighted {
+    box-shadow: 1px 5px #F2F6D0;
+    border: solid 1px white;
 }
 
 #content {
