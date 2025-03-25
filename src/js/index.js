@@ -1,9 +1,9 @@
 import "../css/styles.css";
 import loadHomePage from "./home.js";
 import loadMenuPage from "./menu.js";
+import loadAboutPage from "./about.js";
 
-
-// loadHomePage();
+loadHomePage();
 
 // Retrieve the 3 menu buttons
 const homeButton = document.querySelector("#home");
@@ -12,6 +12,7 @@ const aboutButton = document.querySelector("#about");
 
 homeButton.addEventListener("click", loadHomePage);
 menuButton.addEventListener("click", loadMenuPage);
+aboutButton.addEventListener("click", loadAboutPage);
 
 
 
