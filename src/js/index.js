@@ -3,6 +3,7 @@ import loadHomePage from "./home.js";
 import loadMenuPage from "./menu.js";
 import burgerImage from "../img/burger.jpg";
 import macImage from "../img/mac-cheese.jpg";
+import pancakeImage from "../img/pancakes.jpg";
 
 // loadHomePage();
 
@@ -18,6 +19,7 @@ menuButton.addEventListener("click", loadMenuPage);
 
 const figureBurger = document.querySelector("#cozy-burger figure");
 const figureMac = document.querySelector("#mac-cheese figure");
+const figurePancake = document.querySelector("#pancakes figure");
 
 const burgerTime = document.createElement("img");
 burgerTime.src = burgerImage;
@@ -27,5 +29,10 @@ const macTime = document.createElement("img");
 macTime.src = macImage;
 macTime.alt = "An image of creamy Mac & Cheese";
 
+const pancakeTime = document.createElement("img");
+pancakeTime.src = pancakeImage;
+pancakeTime.alt = "An image of our delicious fluffy pancakes";
+
 figureBurger.prepend(burgerTime);
 figureMac.prepend(macTime);
+figurePancake.prepend(pancakeTime);

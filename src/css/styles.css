@@ -59,6 +59,10 @@ img {
     align-items: center;
 }
 
+.menu-item:not(:last-child) {
+    border-bottom: 8px solid #F2F6D0;
+}
+
 #content {
     display: flex;
     overflow: auto;
