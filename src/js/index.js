@@ -18,4 +18,5 @@ menuButton.addEventListener("click", loadMenuPage);
 const figure = document.querySelector("figure");
 const burgerTime = document.createElement("img");
 burgerTime.src = burgerImage;
+burgerTime.alt = "An image of a delicious burger";
 figure.prepend(burgerTime);
