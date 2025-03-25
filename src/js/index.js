@@ -2,6 +2,7 @@ import "../css/styles.css";
 import loadHomePage from "./home.js";
 import loadMenuPage from "./menu.js";
 import burgerImage from "../img/burger.jpg";
+import macImage from "../img/mac-cheese.jpg";
 
 // loadHomePage();
 
@@ -15,8 +16,16 @@ menuButton.addEventListener("click", loadMenuPage);
 
 // For testing, will remove later
 
-const figure = document.querySelector("figure");
+const figureBurger = document.querySelector("#cozy-burger figure");
+const figureMac = document.querySelector("#mac-cheese figure");
+
 const burgerTime = document.createElement("img");
 burgerTime.src = burgerImage;
 burgerTime.alt = "An image of a delicious burger";
-figure.prepend(burgerTime);
+
+const macTime = document.createElement("img");
+macTime.src = macImage;
+macTime.alt = "An image of creamy Mac & Cheese";
+
+figureBurger.prepend(burgerTime);
+figureMac.prepend(macTime);
